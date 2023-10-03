@@ -30,6 +30,7 @@ class Computer {
   }
 }
 
-const myComp = new Computer('myHome', 'room');
-myComp.powerOn();
-myComp.powerOff();
+const  computer1= new Computer('HP', 'Pavilion');
+const  computer2= new Computer('Dell', 'Inspiron');
+computer1.powerOn();
+computer2.powerOff();
